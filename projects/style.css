@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+    background: rgb(35,81,130);
+    background: linear-gradient(200deg, rgba(35,81,130,1) 0%, rgba(10,0,66,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: whitesmoke;
+}
+.gradient-btn{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    border-image-source:linear-gradient(rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+    color:whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.2s;
+}
+.gradient-btn:hover{
+    background-color: rgb(0, 60, 138);
+}
+.header{
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 128, 0.5);
+    font-size: 30px;
+}
+.smalltext{
+    margin:5px 0 0 0;
+    font-size: 13px;
+}
+.btn-back{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(200deg, rgba(35,81,130,1) 0%, rgba(10,0,66,1) 100%);
+    width: 100px;
+    height: 40px;
+}
+.wrapper{
+    margin:auto;
+    margin-top: 5%;
+    width: 90%;
+}
+.title{
+    margin-top: 4%;
+    margin-left: 12%;
+    padding-left: 5px;
+    border-left: 2px solid white;
+}
+.desc
+{
+    margin-left: 12%;
+    margin-right: 15%;
+    font-size: 18px;
+}
+.btn-github{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(90deg, rgb(39, 16, 82) 0%, rgb(13, 17, 23) 100%);
+    width: 80px;
+    height: 40px;
+}
+.btn-snowflakebot{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(90deg, rgb(147, 160, 185) 0%, rgb(14, 88, 184) 100%);
+    width: 80px;
+    height: 40px;
+}
+.btn-mcbr{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(90deg, rgb(37, 197, 5) 0%, rgb(236, 240, 0) 100%);
+    width: 90px;
+    height: 40px;
+}
+.thumbnail{
+    float: left;
+    margin-right: 20px;
+}

@@ -1,0 +1,84 @@
+html{
+    height: 100%;
+    background: rgb(35,81,130);
+    background: linear-gradient(200deg, rgba(35,81,130,1) 0%, rgba(10,0,66,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+#slime{
+    width: 40px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.header{
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 128, 0.5);
+    font-size: 30px;
+}
+
+.welcome{
+    margin-top:10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    font-size: 30px;
+}
+.advert{
+    position: absolute;
+    bottom: 2%;
+    font-size: 20px;
+    margin: auto;
+    width: 100%;
+}
+.gradient-btn{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    color:whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.2s;
+}
+.gradient-btn:hover{
+    background-color: rgb(0, 60, 138);
+}
+.btn-projects{
+    margin-top: 30px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Quicksand', sans-serif;
+    border-image-source: linear-gradient(90deg, rgb(26, 85, 196) 0%, rgb(124, 158, 194) 100%);
+    width: 120px;
+    height: 50px;
+}
+.btn-toma{
+    margin-top: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(90deg, rgb(124, 124, 124) 0%, rgb(53, 53, 53) 100%);
+    width: 150px;
+    height: 40px;
+}
+.btn-beni{
+    padding: 10px 10px 10px 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    border-image-source: linear-gradient(90deg, rgb(0, 0, 255) 0%, rgb(0, 0, 0) 100%);
+    width: 150px;
+    height: 40px;
+    margin-bottom: 10px;
+}
