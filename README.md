@@ -1,3 +1,2 @@
-# The Home of Karesz
-I like Karesz  
-original design by http://html5up.net/
+# zsongli.cc
+Still don't know what this is
