@@ -13,6 +13,7 @@ const titles = [
     "top-tier coder",
     "the weeb killer",
     "Karesz Clicker champion",
+    "wassup",
     "undefined"
 ]
 
