@@ -66,10 +66,9 @@ a{
 }
 
 .advert{
-    position: absolute;
-    bottom: 2%;
+    margin-top: 14%;
+    padding-bottom: 20px;
     font-size: 20px;
-    margin: auto;
     width: 100%;
 }
 

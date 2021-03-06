@@ -26,6 +26,6 @@ function randRange(min, max)
     return Math.floor(min + (max-min)* Math.random());
 }
 
-function setTitle(){
-    document.getElementById("title").innerText = titles[randRange(0, titles.length)];
+function setTitle(title){
+    document.getElementById("title").innerText = title;
 }
