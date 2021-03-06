@@ -1,47 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Homepage - zsongli.cc</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
-        <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
-        <script src="/main.js"></script>
-    </head>
-    <body onload="setTitle(titles[randRange(0, titles.length)]);">
-        <div class = "bg"></div>
-        <h1 class="header"><img id = "slime" src="/resources/favicon.ico" alt="slime">Homepage - zsongli.cc</h1>
-        <div class = "welcome">
-            Hi! I'm Zsongli, <span id = "title">title placeholder</span>.<br>Take a look at my projects, you will:<br>
-            <button onclick="goto('projects');" class = "btn-projects gradient-btn">Sure!</button>
-        </div>
-        <div class="contact">
-            Looking for contact info? You can find me on...<br>
-            <div class="flex-container">
-                <div class="discord">
-                    <img class = "contact-icon" src="/resources/image/home/discord.png" alt="discord"><br>
-                    Zsong Lee#5662
-                </div>
-                <div class="steam">
-                    <img class = "contact-icon" src="/resources/image/home/steam.png" alt="steam"><br>
-                    <a href="https://steamcommunity.com/id/Zsongli">Zsong Lee</a>
-                </div>
-                <div class="switch">
-                    <img class = "contact-icon" src="/resources/image/home/switch.png" alt="switch"><br>
-                    Zsong Lee<hr>
-                    SW-6598-7008-2110
-                </div>
-                <div class="github">
-                    <img class = "contact-icon" src="/resources/image/home/github.png" alt="github"><br>
-                    <a href="https://github.com/zsongli">Zsongli</a>
-                </div>
+
+<head>
+    <title>Homepage - zsongli.cc</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
+    <script src="/main.js"></script>
+</head>
+
+<body onload="setTitle(titles[randRange(0, titles.length)]);">
+    <h1 class="header"><img id="slime" src="/resources/favicon.ico" alt="slime">Homepage - zsongli.cc</h1>
+    <div class="welcome">
+        Hi! I'm Zsongli, <span id="title">title placeholder</span>.<br>Take a look at my projects, you will:<br>
+        <button onclick="goto('projects');" class="btn-projects gradient-btn">Sure!</button>
+    </div>
+    <div class="contact">
+        Looking for contact info? You can find me on...<br>
+        <div class="flex-container">
+            <div>
+                <img class="contact-icon" src="/resources/image/home/discord.png" alt="discord"><br>
+                Zsong Lee#5662
+            </div>
+            <div>
+                <img class="contact-icon" src="/resources/image/home/steam.png" alt="steam"><br>
+                <a href="https://steamcommunity.com/id/Zsongli">Zsong Lee</a>
+            </div>
+            <div>
+                <img class="contact-icon" src="/resources/image/home/switch.png" alt="switch"><br>
+                Zsong Lee
+                <hr>
+                SW-6598-7008-2110
+            </div>
+            <div>
+                <img class="contact-icon" src="/resources/image/home/github.png" alt="github"><br>
+                <a href="https://github.com/zsongli">Zsongli</a>
             </div>
         </div>
-        <div class = "advert">
-            Also check them out:<br>
-            <button onclick = "goto('https://tomasajt.github.io/');" class = "btn-toma btn">Toma's Karesz Hub</button>
-            <button onclick="goto('https://www.karesz.xyz/');"class = "btn-beni btn">The Home of Karesz</button><br>
-            they're cool
-        </div>
-    </body>
+    </div>
+    <div class="advert">
+        Also check them out:<br>
+        <button onclick="goto('https://tomasajt.github.io/');" class="btn-toma btn">Toma's Karesz Hub</button>
+        <button onclick="goto('https://www.karesz.xyz/');" class="btn-beni btn">The Home of Karesz</button><br>
+        they're cool
+    </div>
+</body>
+
 </html>

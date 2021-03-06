@@ -19,6 +19,7 @@ body{
     background-color: transparent;
     text-align: center;
     transition: 0.2s;
+    cursor: pointer;
 }
 .gradient-btn:hover{
     background-color: rgba(255, 255, 255, 0.096);
@@ -31,6 +32,7 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.185);
     border-radius: 5px;
     transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    cursor: pointer;
 }
 .btn:hover{
     color:rgba(255,255,255,0.8);
