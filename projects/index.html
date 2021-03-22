@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link rel="icon" href="/resources/favicon.ico" type="image/x-icon">
+    <meta content="Projects - zsongli.cc" property="og:title">
+    <meta content="Don't be surprised if there's stuff of all kinds here!" property="og:description">
+    <meta content="https://zsongli.cc/projects" property="og:url">
+    <meta content="https://zsongli.cc/resources/slime.png" property="og:image">
+    <meta content="#0029B0" data-react-helmet="true" name="theme-color">
     <script src="/main.js"></script>
 </head>
 
@@ -16,7 +21,8 @@
     </h1>
     <div class="wrapper">
         <h2 class="title">Snowflake BOT</h2>
-        <p class="desc"><img src="/resources/image/projects/snowflake-bot.png" alt="mcbr" class="thumbnail">A Discord bot made
+        <p class="desc"><img src="/resources/image/projects/snowflake-bot.png" alt="mcbr" class="thumbnail">A Discord
+            bot made
             specifically for The Snowflake Team, out of curiosity. It has some generic
             Discord bot features, but nothing really special. It's open source, but if you want to avoid getting a
             seizure,
@@ -24,20 +30,29 @@
             pretty cool I guess.<br>You can check it out if
             you'd like to: <button class="btn btn-snowflakebot"
                 onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=759152855499800607&permissions=8&scope=bot');">Invite</button><button
-                class="btn btn-github"
-                onclick="goto('https://github.com/Zsongli/snowflake-bot');">GitHub</button>Use the 'help' command to get a list of all the features.</p>
+                class="btn btn-github" onclick="goto('https://github.com/Zsongli/snowflake-bot');">GitHub</button>Use
+            the 'help' command to get a list of all the features.</p>
 
         <h2 class="title">Minecraft Battle Royale</h2>
-        <p class="desc"><img src="/resources/image/projects/mcbr.png" alt="mcbr" class="thumbnail">A Spigot plugin for 1.16.5 that lets
+        <p class="desc"><img src="/resources/image/projects/mcbr.png" alt="mcbr" class="thumbnail">A Spigot plugin for
+            1.16.5 that lets
             you play a game mode (very) similar to UHC, however it
             gives you the liberty of defining a combat arena anywhere and specifying the preparation time for some
             interesting combinations. There can also be multiple matches going on at one time, and all this can be
             installed very easily on any server. This is my very first plugin and Java project.<br>Get the latest
             version here: <button class="btn btn-mcbr"
-                onclick="goto('/resources/download/mcbr-1.16.5.jar');">Download</button>Type '/mcbr' in-game to get a list of all
+                onclick="goto('/resources/download/mcbr-1.16.5.jar');">Download</button>Type '/mcbr' in-game to get a
+            list of all
             the self-explanatory commands.</p>
-        <p class="desc" style="margin-top: 10%; text-align:center;">Website is still under construction, the list isn't
-            finished yet!</p>   
+
+        <h2 class="title">Karesz WASM</h2>
+        <p class="desc"><img src="/resources/image/projects/karesz.png" alt="karesz" class="thumbnail">A clone of the
+            educational program 'Karesz a robot', made in C++. Now it's available in browsers with WebAssembly using Emscripten thanks to
+            the engine bringing support.<br>Try it out: <button class="btn btn-karesz"
+                onclick="goto('./karesz');">Play</button>Powered by <a
+                href="https://github.com/OneLoneCoder/olcPixelGameEngine" target="_blank">OLC::PGE</a></p>
+        <p class="desc" style="padding: 10%; text-align:center;">Website is still under construction, the list isn't
+            finished yet!</p>
     </div>
 </body>
 
