@@ -104,56 +104,13 @@ header.header a.button:hover {
   box-shadow: 0 4px 0 0 var(--accent);
 }
 
-/*ÜDVÖZLŐ ÜZENET*/
-div.welcome-flexbox {
-  width: 50%;
-  margin: auto;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#welcome-text {
-  width: 450px;
-  font-size: 40px;
-  margin: 0 40px;
-  padding-bottom: 20px;
-  border-bottom: 5px solid var(--accent);
-}
-
-div.welcome-flexbox a.button,
-div.welcome-flexbox a.button:link,
-div.welcome-flexbox a.button:visited {
-  transform: skew(-15deg);
-  cursor: pointer;
-  color: #fff;
-  background-color: var(--button-color);
-  text-decoration: none;
-  text-align: center;
-  font-weight: 700;
-  font-size: 30px;
-  padding: 13px;
-  text-shadow: -1px 0 rgba(255, 255, 255, 0.5), 0 1px rgba(255, 255, 255, 0.5),
-    1px 0 rgba(255, 255, 255, 0.5), 0 -1px rgba(255, 255, 255, 0.5);
-  transition: 200ms;
-  margin: 40px;
-  min-width: 200px;
-  height: 50px;
-  display: block;
-}
-
-div.welcome-flexbox a.button:hover {
-  box-shadow: 2px 2px 20px 0 var(--button-glow),
-    -2px -2px 20px 0 var(--button-glow);
-}
-
 /*TARTALOM*/
 div.content-wrapper {
   background-color: #282828;
   box-shadow: -3px -50px 50px #1a1a1a;
   width: 100%;
   min-height: 600px;
+  margin-top: 100px;
   padding-top: 40px;
   padding-bottom: 170px;
 }
@@ -170,6 +127,22 @@ div.content-wrapper div.content {
   padding-bottom: 170px;
 }
 
+div.content-wrapper div.content div.nav-ind { /*navigáció indikátor*/
+  background-color: #4b4b4b;
+  padding: 10px;
+  padding-left: 30px;
+  font-size: 18px;
+  border-left: 3px solid var(--button-color);
+  box-shadow: 5px 5px 3px #343434;
+  margin-bottom: 75px;
+}
+
+div.content-wrapper div.content div.nav-ind span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  margin: 0 10px;
+}
+
 div.content-wrapper div.content article {
   background-color: #313131;
   box-shadow: 5px 5px 3px #343434;
@@ -177,30 +150,22 @@ div.content-wrapper div.content article {
   margin-bottom: 50px;
 }
 
-div.content-wrapper div.content article div.title-flexbox {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 div.content-wrapper div.content article h2 {
+  font-size: 24px;
   margin: 0;
 }
 
-div.content-wrapper div.content article a.button {
-  display: inline-block;
-  background-color: var(--button-color);
-  width: fit-content;
-  padding: 6px 10px;
-  text-decoration: none;
-  text-align: center;
-  border-radius: 6px;
-  transition: 200ms;
+div.content-wrapper div.content div.article-titlebar {
+  background-color: #4b4b4b;
+  box-shadow: 5px 5px 3px #343434;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 900;
+  border-bottom: 5px solid var(--button-color);
 }
 
-div.content-wrapper div.content article a.button:hover {
-  box-shadow: 2px 2px 20px 0 var(--button-glow),
-    -2px -2px 20px 0 var(--button-glow);
+div.content-wrapper div.content article p {
+  margin-bottom: 50px;
 }
 
 /*FOOTER*/
