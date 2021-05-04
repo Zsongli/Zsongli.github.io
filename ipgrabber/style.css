@@ -4,7 +4,7 @@ html {
   min-height: 100vh;
   position: relative;
 
-  background-image: url("/assets/background.png");
+  background-image: url("./assets/background.png");
   background-color: #1d1d1d;
   background-size: 750px;
   background-attachment: fixed;
