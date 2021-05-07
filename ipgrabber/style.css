@@ -85,6 +85,7 @@ header a {
   align-items: center;
   justify-content: center;
   font-size: 22px;
+  width : 400px;
 }
 
 header span {
@@ -123,6 +124,7 @@ div.welcome-flexbox {
 
 #welcome-text {
   width: 550px;
+  min-width: 486px;
   font-size: 40px;
   margin: 0 40px;
   padding-bottom: 20px;
@@ -259,6 +261,7 @@ div.content-wrapper div.content article #result-flex {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 div.content-wrapper div.content article button.button:hover {
@@ -268,6 +271,10 @@ div.content-wrapper div.content article button.button:hover {
 
 div.content-wrapper div.content article div.line-small{
   margin-bottom: 50px;
+}
+
+div.content-wrapper div.content article div.line-small#nomargin{
+  margin-bottom: 10px;
 }
 
 /*FOOTER*/

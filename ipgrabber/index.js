@@ -3,7 +3,6 @@ async function create() {
     const webhook = document.getElementById("webhook").value;
     if (!webhook || !url) return;
     
-    document.getElementById("create-button").style.visibility = "hidden";
     document.getElementById("result-flex").style.visibility = "visible";
     document.getElementById("result").placeholder = "Requesting link, please wait";
     const response = await fetch("https://backend.zsongli.cc/create", {

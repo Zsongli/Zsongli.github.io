@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IP Grabber</title>
-    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <script src="index.js"></script>
 </head>
@@ -25,7 +25,7 @@
     <div class="welcome-flexbox">
         <div id="welcome-text">
             Shorten <strong>URLs</strong> and grab <strong>IPs</strong>.<br>
-            Get a notification on <strong>Discord</strong>.
+            Get a notification on <strong>Discord</strong>™.
         </div>
         <a class="button" href="#create">
             Create a link
@@ -47,7 +47,7 @@
                     <h2>Notification</h2>
                     <input type="url" placeholder="enter Discord webhook URL here" id="webhook">
                 </div>
-                <div class="line-small"></div>
+                <div class="line-small" id = "nomargin"></div>
                 <button onclick="create();" class="button" id="create-button">Create</button>
                 <div id="result-flex">
                     <input type="text" placeholder="requesting link, please wait..." readonly id="result">
@@ -71,7 +71,7 @@
             </a>
         </div>
         <hr>
-        <span id="copyright">Copyright © 2021 lololol, No rights reserved.<br>I, the creator am not responsible for the potentially malicious use cases of this service.</span>
+        <span id="copyright">Copyright © 2021 lololol, No rights reserved.</span>
     </footer>
 
 </body>
