@@ -1,0 +1,129 @@
+html {
+  background: rgb(70, 70, 70);
+  background-image: linear-gradient(
+      610deg,
+      rgba(225, 225, 225, 0.05) 0%,
+      rgba(225, 225, 225, 0.05) 33.333%,
+      rgba(114, 114, 114, 0.06) 33.333%,
+      rgba(114, 114, 114, 0.06) 66.666%,
+      rgba(52, 52, 52, 0.05) 66.666%,
+      rgba(52, 52, 52, 0.05) 99.999%
+    ),
+    linear-gradient(
+      346deg,
+      rgba(181, 181, 181, 0.1) 0%,
+      rgba(181, 181, 181, 0.1) 33.333%,
+      rgba(27, 27, 27, 0.05) 33.333%,
+      rgba(27, 27, 27, 0.05) 66.666%,
+      rgba(89, 167, 224, 0.02) 66.666%,
+      rgba(89, 167, 224, 0.02) 99.999%
+    ),
+    linear-gradient(
+      505deg,
+      rgba(98, 98, 98, 0.05) 0%,
+      rgba(98, 98, 98, 0.05) 33.333%,
+      rgba(222, 222, 222, 0.05) 33.333%,
+      rgba(222, 222, 222, 0.05) 66.666%,
+      rgba(142, 180, 241, 0.05) 66.666%,
+      rgba(142, 180, 241, 0.05) 99.999%
+    ),
+    linear-gradient(370deg, rgb(86, 15, 15), rgb(177, 188, 199));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+}
+
+.text {
+  font-size: 3rem;
+  width: fit-content;
+  margin: auto;
+  font-weight: bolder;
+}
+.sadslime {
+  width: 400px;
+}
+
+div.container {
+  margin: auto;
+  width: max-content;
+}
+
+div.error {
+  /*thanks to Piotr Galor on CodePen for the animation*/
+  display: flex;
+  animation: glitch 1s linear infinite;
+  font-size: 96px;
+  letter-spacing: -7px;
+}
+
+@keyframes glitch {
+  2%,
+  64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+div.error:before,
+div.error:after {
+  content: attr(title);
+  position: absolute;
+  left: 0;
+}
+
+div.error:before {
+  animation: glitchTop 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+@keyframes glitchTop {
+  2%,
+  64% {
+    transform: translate(2px, -2px);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+div.error:after {
+  animation: glitchBottom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitchBottom {
+  2%,
+  64% {
+    transform: translate(-2px, 0);
+  }
+  4%,
+  60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}

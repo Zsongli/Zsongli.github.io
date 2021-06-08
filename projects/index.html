@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js" onload="onLoad();" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <title>Projects - zsongli.cc</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+            <img src="/slime.png" alt="Slime" class="logo">
+        </a>
+        <span class="title">Projects</span>
+        <div class="menu">
+            <a href="/" class="button">Homepage</a>
+            <a href="./mappicker" class="button">R6 map picker</a>
+            <a href="./shortener" class="button">URL Shortener</a>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        <p>Hey, welcome to the list of (some of) my projects! Don't get too surprised if there's stuff of all kinds
+            here. More coming soon.</p>
+        <div class="row">
+            <div class="card">
+                <h1 class="card-title">Snowflake BOT</h1>
+                <img src="./assets/img/snowflake-bot.png" alt="Snowflake BOT icon" class="card-icon">
+                <img src="./assets/img/snowflake-bot-thumbnail.png" alt="Snowflake BOT thumbnail"
+                    class="card-thumbnail">
+                <p class="card-description">
+                    A Discord bot I made specifically for <i>The Snowflake Team</i>, out of curiosity at first, but the
+                    idea has grown since then. The entire code
+                    has been rewritten several times. You might find some of its features interesting.
+                </p>
+                <div class="link-row">
+                    <a href="https://discord.com/oauth2/authorize?client_id=759152855499800607&permissions=8&scope=bot%20applications.commands" class="button" target="_blank">Invite</a>
+                    <a href="https://github.com/Zsongli/snowflake-bot" class="button" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="card">
+                <h1 class="card-title">MCBR</h1>
+                <img src="./assets/img/mcbr.png" alt="MCBR icon" class="card-icon">
+                <img src="./assets/img/mcbr-thumbnail.png" alt="MCBR thumbnail" class="card-thumbnail">
+                <p class="card-description">
+                    A Java plugin for Spigot Minecraft 1.16.5 that implements a game mode <i>very similar to UHC</i>.
+                    However you can
+                    define a combat arena anywhere and specify the preparation time for some interesting
+                    combinations.
+                </p>
+                <div class="link-row">
+                    <a href="./assets/files/mcbr-1.16.5.jar" class="button">Download</a>
+                </div>
+            </div>
+            <div class="card">
+                <h1 class="card-title">Karesz WASM</h1>
+                <img src="./assets/img/karesz.png" alt="Karesz WASM icon" class="card-icon" id="karesz">
+                <img src="./assets/img/karesz-thumbnail.png" alt="Karesz WASM thumbnail" class="card-thumbnail">
+                <p class="card-description">
+                    A clone of the educational program 'Karesz a robot', written in C++. Now it's available in browsers
+                    with WebAssembly using Emscripten thanks to the engine bringing support. Though this is more like a
+                    test
+                    and has no real educational value.
+                </p>
+                <div class="link-row">
+                    <a href="./karesz" class="button">Try it</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="flex">
+            <img src="/slime.png" alt="Slime" class="logo">
+            <span class="credit">made by Zsong Lee 🤍</span>
+        </div>
+        <span id="copyright">Copyright &copy; 2021</span>
+    </footer>
+</body>
+
+</html>

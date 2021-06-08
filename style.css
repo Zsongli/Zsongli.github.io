@@ -1,0 +1,140 @@
+html{
+    height: 100%;
+    background: rgb(35,81,130);
+    background-image: linear-gradient(580deg, rgba(34,66,127, 0.72) 0%, rgba(34,66,127, 0.72) 33.333%,rgba(23,41,98, 0.38) 33.333%, rgba(23,41,98, 0.38) 66.666%,rgba(0,23,70, 0.71) 66.666%, rgba(0,23,70, 0.71) 99.999%),linear-gradient(316deg, rgba(45,73,158, 0.25) 0%, rgba(45,73,158, 0.25) 33.333%,rgba(2,25,76, 0.38) 33.333%, rgba(2,25,76, 0.38) 66.666%,rgba(30,61,127, 0.53) 66.666%, rgba(30,61,127, 0.53) 99.999%),linear-gradient(475deg, rgba(10,0,66, 0.36) 0%, rgba(10,0,66, 0.36) 33.333%,rgba(222,222,222, 0.06) 33.333%, rgba(222,222,222, 0.06) 66.666%,rgba(14,108,214, 0.18) 66.666%, rgba(14,108,214, 0.18) 99.999%),linear-gradient(340deg, rgb(28, 20, 63),rgb(34,78,127));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+a{
+    color:white;
+}
+
+.gradient-btn{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+    color:whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.gradient-btn:hover{
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+.btn{
+    display: inline-block;
+    margin-bottom: 5px;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(255, 255, 255, 0.075);
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    border-radius: 5px;
+    transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color:rgba(255,255,255,0.8);
+    text-decoration:none;
+    background-color:rgba(255,255,255,0.2);
+    border-color:rgba(0, 140, 255, 0.37)
+}
+
+
+.header{
+    width: 100%;
+    min-width: 810px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgba(0, 30, 128, 0.897);
+    font-size: 30px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+#slime{
+    width: 40px;
+    vertical-align: bottom;
+    margin-right: 10px;
+}
+
+.welcome{
+    width: 30%;
+    min-width: 600px;
+    max-width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 1.5em;
+    font-size: 30px;
+    border: 3px solid;
+    border-image: repeating-linear-gradient(223deg, rgb(28,34,80) 0px, rgb(28,34,80) 28px,rgb(32,72,128) 28px, rgb(32,72,128) 74px,rgba(33,9,15, 0) 74px, rgba(33,9,15, 0) 206px) 1;
+    background: rgba(0, 0, 0, 0.432);
+}
+
+.contact{
+    width:35%;
+    min-width: 800px;
+    max-width: 900px;
+    margin:auto;
+    margin-top: 55px;
+    font-size: 23px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border:3px solid;
+    border-image: repeating-linear-gradient(156deg, rgb(28, 34, 80) 0px, rgb(28, 34, 80) 28px,rgb(32,72,128) 28px, rgb(32,72,128) 74px,rgba(33,9,15, 0) 74px, rgba(33,9,15, 0) 206px) 1;
+    background: rgba(0, 0, 0, 0.432);
+}
+
+.flex-container{
+    margin-top: 75px;
+    display:flex;
+    justify-content: space-evenly;
+    font-size: 16px;
+}
+
+.contact-icon{
+    width: 50px;
+}
+
+.advert{
+    margin-top: 100px;
+    padding-bottom: 1em;
+    min-width: fit-content;
+    font-size: 20px;
+}
+
+.btn-projects{
+    margin-top: 30px;
+    padding: 1em 2em 1em 2em;
+    font-family: 'Quicksand', sans-serif;
+    border-image-source: linear-gradient(90deg, rgb(26, 109, 204) 0%, rgb(3, 77, 214) 100%);
+    width: 120px;
+    height: 50px;
+}
+.btn-toma{
+    margin-top: 10px;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+}
+.btn-beni{
+    padding: 5px 5px 5px 5px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+    margin-bottom: 10px;
+}
