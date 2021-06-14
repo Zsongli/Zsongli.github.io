@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Shortener</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div style="display: flex; align-items: center;">
+            <a href="/">
+                <img src="/slime.png" alt="Logo" class="logo">
+            </a>
+                <span>URL Shortener</span>
+        </div>
+        <div class="menu">
+            <a href="/projects" class="button">Projects</a>
+            <a href="/projects/mappicker/" class="button">R6 map picker</a>
+        </div>
+    </header>
+
+    <!-- ÜDVÖZLŐ ÜZENET -->
+    <div class="welcome-flexbox">
+        <div id="welcome-text">
+            Shorten <strong>URLs</strong> and grab <strong>IPs</strong>.<br>
+            Get a notification on <strong>Discord</strong>™.
+        </div>
+        <a class="button" href="#create">
+            Create a link
+        </a>
+    </div>
+
+    <div class="content-wrapper" id="create">
+        <div class="content">
+            <h1>Create</h1>
+            <div class="line"></div>
+
+            <article>
+                <div class="input-flex">
+                    <h2>URL to shorten</h2>
+                    <input type="url" placeholder="enter a URL" id="original">
+                </div>
+                <div class="line-small"></div>
+                <div class="input-flex">
+                    <h2>Notification</h2>
+                    <input type="url" placeholder="enter Discord webhook URL here" id="webhook">
+                </div>
+                <div class="line-small" id = "nomargin"></div>
+                <button onclick="create();" class="button" id="create-button">Create</button>
+                <div id="result-flex">
+                    <input type="text" placeholder="requesting link, please wait..." readonly id="result">
+                    <button onclick="copyLink();" class="button" id="copy-button">Copy to clipboard</button>
+                </div>
+            </article>
+
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="flex">
+            <img class="logo" src="/slime.png" alt="Logo">
+            made by Zsong Lee 🤍
+        </div>
+        <hr>
+        <span id="copyright">Copyright © 2021 lololol, No rights reserved.<br><i>The creator isn't responsible for any potentially malicious use cases for this tool.</i></span>
+    </footer>
+
+</body>
+
+</html>
